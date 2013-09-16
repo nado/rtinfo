@@ -1,0 +1,60 @@
+body {
+	font-family: "Trebuchet MS", Helvetica, sans-serif;
+	background: rgb(238,238,238); /* Old browsers */
+	background: -moz-radial-gradient(center, ellipse cover, rgba(238,238,238,1) 0%, rgba(204,204,204,1) 100%); /* FF3.6+ */
+	background: -o-radial-gradient(center, ellipse cover, rgba(238,238,238,1) 0%,rgba(204,204,204,1) 100%); /* Opera 12+ */
+	background: -ms-radial-gradient(center, ellipse cover, rgba(238,238,238,1) 0%,rgba(204,204,204,1) 100%); /* IE10+ */
+	background: radial-gradient(ellipse at center, rgba(238,238,238,1) 0%,rgba(204,204,204,1) 100%); /* W3C */
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#eeeeee', endColorstr='#cccccc',GradientType=1 ); /* IE6-8 fallback on horizontal gradient */
+}
+
+table {
+	width: 95%;
+	border-collapse: collapse;
+	margin: 25px auto 25px auto;
+	box-shadow: 0 0 15px #000000;
+}
+
+table thead tr {
+	background: #12477A;
+	color: #FFFFFF;
+	font-weight: bold;
+}
+
+table tbody tr.online {
+	background: rgba(0, 128, 0, 0.1);
+}
+
+table tbody tr.offline {
+	background: rgba(160, 42, 42, 0.4);
+}
+
+table tbody tr:hover {
+	background: rgba(30, 144, 255, 0.4);
+}
+
+table tr td:first-child {
+	padding-left: 6px;
+}
+
+table tr td:last-child {
+	padding-right: 6px;
+}
+
+table tr.last {
+	border-bottom: dashed 1px #1E90FF;
+}
+
+span {
+	font-weight: bold;
+}
+
+.highlight {
+	color: #006300;
+	font-weight: bold;
+}
+
+small, .hide {
+	opacity: 0.1;
+	color: #000000;
+}
